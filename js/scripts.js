@@ -1,5 +1,6 @@
-function showSpecies()
-
+function showSpecies(species, animal) {
+  return onclick
+}
 
 
 window.onload = function () {
