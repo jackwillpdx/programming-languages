@@ -3,8 +3,9 @@ window.onload = function () {
   form.onsubmit = function (event) {
       event.preventDefault();
 
-      function hide() {
-        document.getElementById("species").style.display ="hidden"
+      document.querySelector("#species").addEventListener("submit", function()){
+        document.querySelector(#film).style.visibility="visible";
+        document.querySelector("#species").style.visibility="hidden";
+      }
     }
-  }  
-};
+ };
