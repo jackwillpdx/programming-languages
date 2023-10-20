@@ -11,39 +11,70 @@
 
 <body>
   <h1>Programming Language Suggestor</h1>
-  <h2>How would you prefer to spend an evening?</h2>
-  <form id="night-out">
-    <select id="evening">
-      <option>Under the Stars</option>
-      <option>Inside on the Couch</option>
-      <option>Going out to Eat</option>
-      <option>Surrounded by Loved Ones</option>
-    </select>
-    <button type="submit" class="btn">Next Question</button>
-  </form>
+  <div>
+    <h2>How would you prefer to spend an evening?</h2>
+    <form id="night-out">
+      <select id="evening">
+        <option>Under the Stars</option>
+        <option>Inside on the Couch</option>
+        <option>Going out to Eat</option>
+        <option>Surrounded by Loved Ones</option>
+      </select>
+      <button type="submit" class="btn">Next Question</button>
+    </form>
+  </div>
 
-  <h2>What is your favorite of these animals?</h2>
-  <form id="species">
-    <select id="animal">
-      <option>Dog</option>
-      <option>Cat</option>
-      <option>Reptile</option>
-      <option>Rodent</option>
+  <div>
+    <h2>What is your favorite of these animals?</h2>
+    <form id="species" class="hidden">
+      <select id="animal">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="reptile">Reptile</option>
+        <option value="rodent">Rodent</option>
+      </select>
+      <button type="submit" class="btn">Next Question</button>
+    </form>
+  </div>
+
+  <div>
+    <h2>Which genre of film is your favorite?</h2>
+    <form id="film" class="hidden">
+      <select id="movie">
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="romance">Romance</option>
+        <option value="horror">Horror</option>
+        <option value="doc">Documentary</option>
+      </select>
+      <button type="submit" class="btn">Next Question</button>
+    </form>
+  </div>
+
+  
+  <h2>What type of music do you prefer?</h2>
+  <form id="music" class="hidden">
+    <select id="songs cla">
+      <option value="pop">Pop</option>
+      <option value="country">Country</option>
+      <option value="rap">Hip-Hop/R&B</option>
+      <option value="techno">Electronic</option>
+      <option value="rock">Rock</option>
     </select>
     <button type="submit" class="btn">Next Question</button>
   </form>
 
   <h2>Which of these colors do you like most?</h2>
-  <form id="color">
+  <form id="color" class="hidden">
     <select id="shade">
-      <option value="Red">Red</option>
-      <option value="Blue">Blue</option>
-      <option value="Yellow">Yellow</option>
-      <option value="Green">Green</option>
-      <option value="Purple">Purple</option>
-      <option value="Orange">Orange</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+      <option value="purple">Purple</option>
+      <option value="orange">Orange</option>
     </select>
-    <button type="submit" class="btn">Next Question</button>
+    <button type="submit" class="btn">Find My Programming Language</button>
   </form>
 </body>
 
