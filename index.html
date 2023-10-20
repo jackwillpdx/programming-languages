@@ -11,19 +11,40 @@
 
 <body>
   <h1>Programming Language Suggestor</h1>
-  <form id="hobbies"></form>
-  <label>
-    <input type="radio" name="operator" value="outdoors">
-  </label>
-  <label>
-    <input type="radio" name="operator" value="inside">
-  </label>
-  <label>
-    <input type="radio" name="operator" value="meal">
-  </label>
-  <label>
-    <input type="radio" name="operator" value="family">
-  </label>
+  <h2>How would you prefer to spend an evening?</h2>
+  <form id="night-out">
+    <select id="evening">
+      <option>Under the Stars</option>
+      <option>Inside on the Couch</option>
+      <option>Going out to Eat</option>
+      <option>Surrounded by Loved Ones</option>
+    </select>
+    <button type="submit" class="btn">Next Question</button>
+  </form>
+
+  <h2>What is your favorite of these animals?</h2>
+  <form id="species">
+    <select id="animal">
+      <option>Dog</option>
+      <option>Cat</option>
+      <option>Reptile</option>
+      <option>Rodent</option>
+    </select>
+    <button type="submit" class="btn">Next Question</button>
+  </form>
+
+  <h2>Which of these colors do you like most?</h2>
+  <form id="color">
+    <select id="shade">
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option>
+      <option value="Yellow">Yellow</option>
+      <option value="Green">Green</option>
+      <option value="Purple">Purple</option>
+      <option value="Orange">Orange</option>
+    </select>
+    <button type="submit" class="btn">Next Question</button>
+  </form>
 </body>
 
 </html>
